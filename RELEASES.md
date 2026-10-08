@@ -2,6 +2,12 @@
 
 Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-license-audit-releases/releases) page.
 
+## v3.10.0.1-0.5.0 (2026-10-08)
+
+### Changed
+- **A new look.** A header band shows the database being audited, the step you're on and progress across every step; a side panel shows this database, what was collected and which databases have been sent.
+- **A refreshed step list.** Numbered steps, a spinning ring on the step that is running, and a progress bar that fills one segment per step.
+
 ## v3.10.0.1-0.4.8 (2026-10-06)
 
 ### Changed
