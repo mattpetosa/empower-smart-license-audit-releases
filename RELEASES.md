@@ -2,6 +2,17 @@
 
 Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-license-audit-releases/releases) page.
 
+## v3.10.0.1-0.6.0 (2026-10-23)
+
+### Fixed
+- **Updates install from any folder.** An update could not install, and the app then closed each time it was started, when the app or the Windows user's folder had a curly apostrophe in its name (e.g. Matt’s tools). Folders with square brackets in their name (e.g. Tools [v2]) also restart correctly after an update now.
+- **A stalled update download no longer hangs the app.** If the connection went quiet partway through downloading an update, the update window stayed open and the update button stayed disabled until the app was closed. The download now gives up after a minute without data.
+- **The app opens even if an update file is busy.** If an antivirus scan was holding a downloaded update when the app started, the app closed straight away; it now opens normally and installs the update on a later start.
+- **Last sign-in dates on servers with day-first dates.** Where Empower reports a last sign-in as text, dates such as 03/04/2026 are now read the way the server writes them (3 April on a UK or German server), not always month-first.
+- **Long company names no longer block saving the audit file.** A very long company or database name made the file name too long for Windows, and the save form asked again and again.
+- **Clearer message for a closed audit.** When your audit code belongs to an audit that is no longer taking uploads, the save form now says so instead of "No audit code was given".
+- Log files use the same date and time format on every computer, whatever its regional settings.
+
 ## v3.10.0.1-0.5.3 (2026-10-08)
 
 ### Fixed
