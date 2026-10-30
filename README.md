@@ -2,7 +2,7 @@
 
 # Empower Smart License Audit — Downloads
 
-This repository hosts **downloads and issue tracking** for Empower Smart License Audit, part of
+This repository hosts **downloads** for Empower Smart License Audit, part of
 the Empower Smart Tools family alongside
 [Empower Smart Deploy](https://github.com/mattpetosa/empower-smart-deploy-releases) and
 [Empower Smart Recovery](https://github.com/mattpetosa/empower-smart-recovery-releases):
@@ -30,4 +30,4 @@ contact has asked for and sends it to Waters securely.
 
 ## Issues
 
-Found a problem? [Open an issue](https://github.com/mattpetosa/empower-smart-license-audit-releases/issues).
+Found a problem or have a request? Every Smart Tools app shares one place for feedback: [open an issue in Smart Tools Feedback](https://github.com/mattpetosa/smart-tools-feedback/issues/new/choose).
